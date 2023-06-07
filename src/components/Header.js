@@ -61,8 +61,7 @@ const Header = () => {
 
   const handleMenuItemClick = () => {
     setIsOpen(false);
-    // Perform any desired actions on menu item click
-  };
+    };
 
   return (
     <HeaderWrapper isOpen={isOpen}>
